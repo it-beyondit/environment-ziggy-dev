@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: it-beyondit
+    provider: github
+    repository: node_devpod
+  name: it-beyondit-node-devpod
+spec:
+  description: Imported application for it-beyondit/node_devpod
+  httpCloneURL: https://github.com/it-beyondit/node_devpod.git
+  org: it-beyondit
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: node_devpod
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/it-beyondit/node_devpod.git

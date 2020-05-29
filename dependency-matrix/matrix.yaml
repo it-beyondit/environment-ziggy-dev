@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: it-beyondit
+  repo: node_devpod
+  url: https://github.com/it-beyondit/node_devpod.git
+  version: ""
+  versionURL: ""
