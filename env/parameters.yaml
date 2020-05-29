@@ -1,0 +1,10 @@
+adminUser:
+  password: local:ziggy/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jenkinsx@beyondit.it
+  token: local:ziggy/pipelineUser:token
+  username: JenkinsxBeyondIt
+prow:
+  hmacToken: local:ziggy/prow:hmacToken
